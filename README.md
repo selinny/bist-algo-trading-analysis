@@ -8,8 +8,11 @@ Bu proje, Borsa İstanbul (BIST) hisse senetleri üzerinde veri odaklı yatırı
 - **Strateji Backtestleri:**
   - Hareketli Ortalama Kesişimi (SMA 20/50) ve Stop-Loss kuralı testi.
   - 14 günlük RSI (Göreceli Güç Endeksi) aşırı alım/aşırı satım osilatörü ile getiri karşılaştırması.
+  - **Bollinger Bantları Göstergesi:** 20 günlük periyot ve 2 standart sapma aralığı ile fiyat kanalı analizi ve aşırı sapma tespiti.
 
 ## Kullanılan Teknolojiler
 - Python
 - `yfinance`, `pandas`, `numpy`
 - `matplotlib`, `seaborn`
+
+
